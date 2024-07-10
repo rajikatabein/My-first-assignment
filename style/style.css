@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+body {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+ .container {
+    background-image: url(../assets/Hero-bg.png);
+ background-position:center;
+ background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 70px;
+ }
+ .container img {
+    padding-top: 5px;
+    padding-bottom: 40px;
+ }
+ .container h1 {
+    padding-bottom: 24px;
+    font-size: 60px;
+    
+ }
+ .container p {
+    padding-bottom: 32px;
+    font-size: 25px;
+    padding-left: 266px;
+    padding-right: 266px;
+    color: gray;
+    opacity: .7;
+ }
+ .container button  {
+    margin-bottom: 46.2px ;
+    width: 218.4px;
+    height: 66px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+   
+ }
+ .container button a {
+    text-decoration: none;
+    color: white;
+ }
+ 
+.hero {
+   margin-top: 55px;
+   text-align: center;
+   margin-left: 315px;
+   margin-right: 315px;
+  background-color: rgba(13, 19, 33, 0.02);
+  
+}
+.hero h1 {
+    font-size: 32px;
+}
+.hero .rt {
+    padding-top: 25px;
+    font-size: 16px;
+ padding-left: 49.35px;
+ padding-right:49.35px ;
+    
+    
+}
+.herocont {
+    margin: 50px 103.78px;
+    background-color: white;
+    border: 1px solid rgb(240, 237, 237);
+    border-radius: 10px;
+}
+.lside {
+    /* padding-right: 103.78px; */
+    text-align: left;
+    padding-right: 103.8px;
+
+}
+.lside h1 {
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+    font-weight: 700;
+    
+}
+.lside p{
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+}
+.lside button {
+    padding: 12px 20px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.lside button a {
+    text-decoration: none;
+    color:rgb(60, 57, 57);
+}
+.card1 {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 48px;
+}
+.herocont2 {
+    margin: 50px 103.78px;
+    background-color: white;
+    border: 1px solid rgb(240, 237, 237);
+    border-radius: 10px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    margin-top: 48px;
+    
+}
+.rsi {
+    padding-left: 10px;
+    padding-right: 200px;
+    text-align: left;
+    padding-bottom: 80px;
+}
+.rsi h1{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    padding-bottom: 25px;
+    color: rgba(13, 19, 33, 0.7);
+}
+.rsi p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: rgba(13, 19, 33, 0.7);
+
+}
+.rsi button {
+    padding: 12px 20px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.rsi button a {
+    text-decoration: none;
+    color:rgb(60, 57, 57);
+}
+.insp {
+    text-align: center;
+    width: 1197px;
+}
+.insp h1 {
+    font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+padding-bottom: 24px;
+}
+.insp p {
+    font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+padding-bottom: 48px;
+}
+.insp iframe {
+    width: 1129.8px;
+    height: 550px;
+    padding-left: 80px;
+    border-radius: 20px;
+
+    
+}
+.target {
+    margin: 111px 0px;
+}
+.target h1 {
+    font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+padding-bottom: 24px;
+}
+.target p {
+    font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: rgba(13, 19, 33, 0.7) ;
+padding-bottom: 48px;
+}
+.sec2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 101.85px;
+}
+ 
+.sec2 .c1 {
+    width: 382.2px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   margin-left: 10.5px;
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 24px ;
+    text-align: left;
+    border-radius: 16px;
+    
+}
+.sec2 .c1 h1 {
+    padding-top: 15px;
+   
+}
+.sec2 .c1 .yt {
+    padding: 15px 0px;
+}
+.sec2 .c1 .lr{
+color: black;
+font-weight: 700;
+
+
+}
+.sec2 .c2 {
+    width: 382.2px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   margin-left: 10.5px;
+    background-color:rgba(0, 76, 232, 0.05);
+    padding: 24px ;
+    text-align: left;
+    border-radius: 16px;
+    
+}
+.sec2 .c2 h1 {
+    padding-top: 15px;
+   
+}
+.sec2 .c2 .yt {
+    padding: 15px 0px;
+}
+.sec2 .c2 .lr{
+color: black;
+font-weight: 700;
+
+
+}
+
+.sec2 .c3 {
+    width: 382.2px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   margin-left: 10.5px;
+    background-color:rgba(255, 223, 0, 0.05);
+    padding: 24px ;
+    text-align: left;
+    border-radius: 16px;
+    
+}
+.sec2 .c3 h1 {
+    padding-top: 15px;
+   
+}
+.sec2 .c3 .yt {
+    padding: 15px 0px;
+}
+.sec2 .c3 .lr{
+color: black;
+font-weight: 700;
+
+
+}
+.container2 {
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin: 48px 101.5px;
+   height: 314px;
+   border-radius: 16px;
+background-color:  black;
+}
+ .container2{
+   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.container2  h1 {
+font-size: 32px;
+ont-weight: 700;
+line-height: 36px;
+padding-top: 48px;
+padding-bottom: 24px;
+color: white;
+}
+.container2  p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: .7;
+padding-bottom: 48px;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+input{
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+margin-left: 250px;
+margin-right: 24px;
+background: rgb(255, 255, 255);
+width: 525px;
+padding: 15px 10px;
+}
+.form button {
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+padding:15px 25px ;
+}
+.footer {
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+padding: 48px 150px;
+display: flex;
+justify-content: space-between;
+}
+.ur img {
+    padding-right: 15px;
+}
