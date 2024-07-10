@@ -279,7 +279,8 @@ font-weight: 700;
 
 }
 .container2 {
-    background-image: url(../assets/handshake.jpg);
+    background-image: url("../assets/handshake.jpg"), linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2));
+    
     background-repeat: no-repeat;
     background-size: cover;
    margin: 48px 101.5px;
